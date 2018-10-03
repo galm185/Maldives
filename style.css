@@ -1,0 +1,606 @@
+body{margin: 0;
+			 font-family: 'Titillium Web', sans-serif;
+			}	
+		header nav#top-header{
+			display: flex;
+			width: 100%;
+			height: 38px;
+			background-color: #20a9e1;
+			justify-content: flex-end;
+		}
+		header nav#top-header a{
+		    list-style: none;
+		    width: 22px;
+		    height: 22px;
+		    margin-right: 18px;
+		    margin-top: 8px;
+		    border-radius: 100%;
+	        text-align: center;
+			border-radius: 20px solid black;
+			background-color: royalblue;
+		}
+		header nav#top-header i{
+			color:white;
+		    padding-top: 3px;	
+		}
+		a#facebook:hover{
+			background-color:MidnightBlue;
+		}
+		a#twitter:hover{
+		background-color:#20a9e1;	
+		}
+		a#youtube:hover{
+			background-color: red;
+		}
+		a#instagram:hover{
+			background-color: pink;
+		}
+		div#menu-header{
+			border-bottom:4px solid darkgray; 
+			display:flex;
+			justify-content: space-around;
+			margin-top: 8px;	
+		}
+		div#menu-header div#img-container img{
+			width: 100%;
+			padding-top: 10px;
+		}
+		div#img-container{
+			width:20%;
+		}
+		nav#main{
+	       width: 80%;
+    	   margin-top: 30px;
+    	   margin-left: 25px;
+   		   margin-right: 15px;
+		   display: flex;
+		   justify-content: space-around;}
+	
+
+		nav#main a{
+			text-decoration: none;
+			font-size: 18px;
+			color: black;
+			font-weight: 700;
+			padding-bottom: 35px;
+			text-align: center;
+			padding-left: 10px;
+		
+		}
+		nav#main a:first-child{
+			color:darkcyan;
+		}
+		nav#main a#bars{
+			width: 30px;
+		    height: 30px;
+		    background-color: #45b2a5;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    border-radius: 5px;
+		    color: white;
+		    padding:0;
+		    margin-bottom: 30px;
+		}
+
+		nav#main a:hover{
+			border-bottom: 4px solid green;
+		}
+		div#menu-header nav#main nav.small-nav{
+			margin:0;
+			padding: 0;
+			display: none;
+		}
+		nav#header a:hover > nav.small-nav{
+			display: block;
+
+		}
+
+		div#background-header{
+			background-image: url("images/maldives-visit.jpg");
+			width: 100%;
+			height: 766px;
+			background-size: cover;
+		}
+		main nav#nav-main{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #32485e;
+		}
+		main nav#nav-main a{
+			text-decoration: none;
+			font-size: 18px;
+			color: #777;
+			border-right:1px solid #777; 
+			border-left:1px solid #777;
+			font-weight: 700;
+			text-align: center;
+		}
+		main nav#nav-main img{
+			width: 40px;
+		}
+		main div#container-title{
+			text-align: center;
+		}
+		main div#container-title h1{
+			color: #777;
+			font-weight: 700;
+			margin-bottom: 10px;
+		}
+		main div#container-title h1 span{
+			color:#45b2a5;
+		}
+		main div#container-title small{
+			color: #777;
+		}
+		main #head-main{
+			background-image: url("images/repeat.png");
+			margin-top: 50px;
+			width: 100%;
+			height: 660px;
+			background-attachment: fixed;
+   		    background-position: top center;
+		}
+		div#two-side-content{
+			display: flex;
+			margin: 30px 20px;
+			justify-content: space-between;
+		}
+		div#head-main{
+			display: flex;
+		}
+		div#right-side{
+			width: 30%;
+			height: 200px;
+			background-color: gray;
+		}
+		div#left-side{
+			display: flex;
+			width: 65%;
+			height: 585px;
+		}
+		div#EXPLORE-MALDIVES .button-style{
+			background-color: #54b251;
+			width: 65%;
+		    line-height: 235%;
+		    border-radius: 6px;
+		    border-color: #54b251;
+		    color: white;
+		    font-weight: 700;
+		    margin-top: 60px;
+		}
+		div#EXPLORE-MALDIVES-img{
+			background-image: url("images/people.jpg");
+			width: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+
+		}
+		div#EXPLORE-MALDIVES{
+			width: 45%;
+		    background-color: #1d70a3;
+   			padding: 20px 30px;
+ 		    color: #cedbe6;
+ 		    display: flex;
+            flex-direction: column;
+		}
+		div#right-side{
+		    width: 30%;
+  		    height: 15%;
+            background-color: #2b3d50;
+            display: flex;
+  	        justify-content: center;
+  		    align-items: flex-start;
+		}
+		div#right-side-paragragh{
+			background-color: #d9edf7;
+ 		    border-color: #bce8f1;
+		    padding: 15px;
+ 		    margin-bottom: 20px;
+ 		    border: 1px solid transparent;
+ 		    border-radius: 4px;
+ 		    height: 53%;
+ 		    width: 75%;
+ 		    display: flex;
+   		    justify-content: center;
+            align-items: center;
+		}
+		div#right-side-paragragh p{
+		   color: #3a87ad;
+		   font-size: 15px;
+		}
+		div#main-section{
+			display: flex;
+			text-align: center;
+			flex-direction: column;
+		}
+		div#main-section #title-main-section{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		div#main-section #title-main-section h1{
+			color:#333;
+			font-size: 25px;
+		}
+		div#main-section #title-main-section #line-style{
+			background-color:rgba(0,0,0,0.04);
+		    width: 28%;
+    		height: 25px;
+		}
+		nav#nav-section{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 40px;
+		}
+		nav#nav-section a{
+			margin-left:5px;
+		    position: relative;
+
+		}
+		nav#nav-section a div.pic-blue h4{
+			margin: 0;
+		}
+		nav#nav-section a div.pic-blue p{
+			margin:0 0 20px 0;
+  			font-size: 13px;	
+		}
+		div#nav-section-small{
+			display: flex;
+			justify-content: space-around;
+			margin-top: 90px;
+		}
+		aside{
+			width: 29%;
+			height:fit-content;
+		    background-image: url("images/directory2.jpg");
+		    background-size: cover;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		}
+		aside a{
+			width: 100%;
+		    text-align: center;
+		    text-decoration: none;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		}
+		aside a:hover figcaption{
+			color:#1e8475;
+		}
+		aside figure{
+			margin-top: 0;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		}
+		aside figure img{
+			width: 60%;
+		    border-radius: 100px;
+		    border:6px solid #45b2a5;
+		    margin-bottom: 15px;
+		}
+		aside figure figcaption{
+			font-size: 27px;
+		    color: black;
+		    font-weight: 700;
+		}
+		aside span{
+			font-size: 13px;
+		}
+		aside footer{
+			display: flex;
+		    justify-content: space-between;
+		    width: 100%;
+		    align-items: center;
+		    margin-top: 30px;
+		    border-top: 1px solid darkgray;
+		    background-color: rgba(0,0,0,0.04);
+		}
+		aside footer span{
+			font-size: 15px;
+		    color:gray;
+		    font-weight: 700;
+		    padding-left: 20px;
+		} 
+		aside footer #aside-button-style{
+			display:flex;
+		}
+		 aside footer #aside-button-style button{
+			width: 42px;
+		    height: 42px;
+		    background-color: #54b251;
+		    color:white;
+		    font-size: 20px;
+    		font-weight: 700;
+    	    border-radius: 1px;
+    		border-color: #54b251;
+    		margin-left: 2px;
+    		cursor: pointer;
+		}
+		div#nav-section-small nav#small-nav{
+		 	 width: 63%;
+			 display: flex;
+   			 flex-wrap: wrap;
+		}
+		section#small-nav-section{
+			width: 50%;
+			display: flex;
+			justify-content: space-around;
+			margin-bottom: 25px;
+		}
+		section#small-nav-section div#section-img{width: 30%;}
+		section#small-nav-section div#section-h-p{
+			width: 70%;
+			color: #333
+		}
+		div#section-h-p h2{
+			font-size: 22px;
+   		    margin-top: 0;
+		}
+		div#section-h-p a{
+			text-decoration: none;
+			color: #333;
+		}
+		div#section-h-p a:hover{
+			color:#1e8475; 
+		}
+		div#section-h-p p{font-size: 12px;}
+		div#Weather{
+			display: flex;
+		    margin-top: 30px;
+		    width: 99%;
+		    justify-content: space-around;
+		    border-top: 1px solid rgba(0,0,0,0.1);
+		}
+		 div#weather-text{
+    		width: 63%;
+    		color: #333;
+		}
+		 div#weather-degree{
+			width: 25%;
+		    color: #333;
+		    display: flex;
+		    flex-wrap: wrap;
+		}
+		 div#weather-degree h4{
+		    background-color: rgba(0,0,0,0.1);
+		    text-align: center;
+		    line-height: 35px;
+		    width: 100%;
+		}
+		div#weather-degree span#degree{
+			width: 45%;
+		    font-size: 60px;
+		    font-weight: 700;
+		}
+		div#weather-degree pre{
+			width: 45%;
+    		font-size: 16px;
+		}
+		div#weather-degree span{
+			padding-left: 25px;
+		}
+		article{
+			background-image: url("images/oggles.jpg");
+			background-size: cover;
+		    justify-content: center;
+   			display: flex;
+   			flex-wrap: wrap;
+   			padding-bottom: 60px;
+		}
+		article #article-content{
+		    background-color: white;
+		    width: 88%;
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: center;
+		    border-top: 1px solid rgba(0,0,0,0.1);
+		    margin-top: 50px;
+		}
+		article #article-content h6{
+			text-align: center;
+		    color: #333;
+		    font-size: 22px;
+		    width: 100%;
+		    margin-bottom: 0;
+		}
+		article #article-content p{
+			width: 90%;
+		    color: #333;
+		    text-align: center;
+		}
+		article #article-content img{
+			width: 95%;
+			margin-bottom: 45px;
+		}
+		article #article-content button{
+			background: #54b251;
+		    border: 0px solid #54b251;
+		    border-radius: 5px;
+		    padding: 8px 40px;
+		    color: white;
+		    font-weight: 700;
+		    margin-bottom: 45px;
+		    cursor: pointer;
+		} 
+		article #article-content button:hover{
+		background-color:ForestGreen;	
+		}
+		article h5{
+		    color: #333;
+		    font-size: 30px;
+		    margin-bottom: 10px;
+		}
+		article p{
+			color: #333;
+		    text-align: center;
+		    width: 90%;
+		}
+		footer div#header-footer{
+			display: flex;
+		    background-color: #e0e2e4;
+		    border-top: 1px solid #777;
+		    padding-top: 40px;
+		    padding-bottom: 60px;
+		}
+		footer div#header-footer div#information{
+		    width: 21%;
+   			padding-left: 35px;
+		} 
+		footer div#header-footer div#information span#email-style{font-weight: 700;}
+		footer div#header-footer div#information img{
+			padding-top: 30px;
+		}
+		footer div#header-footer div#information p{
+			font-size: 13px;
+ 		    color: #333;
+		}
+		footer div#header-footer nav#RECENT-NEWS{
+			width: 21%;
+   		    padding-left: 40px;
+   		    font-size: 14px;
+		}
+		footer div#header-footer h5{
+		    font-size: 20px;
+   		    margin-bottom: 15px;
+   		    color:#333;
+		}
+		footer div#header-footer nav#RECENT-NEWS a{
+			text-decoration: none;
+    		color: #507992;
+    	}
+		footer div#header-footer div#CONTACT-US{
+		    width: 20%;
+  	   	    padding-left: 40px;
+   		    color: #333;
+  		    font-size: 13px;
+		}
+		footer div#header-footer div#CONTACT-US input{
+			width: 100%;
+   			height: 9%;
+		    border-radius: 2px;
+		    border: 1px solid #777;
+		}
+		footer div#footer-small{
+			display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    background-color: #b2b6bc;
+		    height: 65px;
+		    border-top: 1px solid #777;
+		    padding-left: 20px;
+		    padding-right: 20px;
+		}
+		footer div#footer-small small{
+			font-size: 12px;
+    		color: #333;
+		}
+		footer div#footer-small nav#footer-small-nav a{
+			margin-left: 10px;
+		    text-decoration: none;
+		    color: #333;
+		    font-size: 14px;
+		}
+  	   footer div#footer-small nav#footer-small-nav a:hover{
+   			color: white;
+   		}
+		nav#nav-section a div.pic-blue{
+			position: absolute;
+		    width: 100%;
+		    background-color: rgba(32,169,225,0.95);
+		    height: fit-content;
+		    text-align: start;
+		    color: white;
+		    bottom: 0;
+		}
+		.dropbtn {
+		    text-decoration: none;
+		    font-size: 18px;
+		    color: black;
+		    font-weight: 700;
+		    padding-bottom: 35px;
+		    text-align: center;
+		    padding: 0;
+		    padding-left: 10px;
+		    border: none;
+		    background-color: initial;
+		}
+
+		.dropbtn:hover, .dropbtn:focus {
+   		    cursor: pointer;
+   		    outline:none;
+		}
+
+		.dropdown {
+		    position: relative;
+		    display: inline-block;
+		}
+
+		.dropdown-content {
+		        width: 15rem;
+		    position: absolute;
+		    background-color: white;
+		    overflow: auto;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;
+		}
+
+		.dropdown-content a {
+		        text-align: start;
+		    font-size: 0.9rem;
+		    font-weight: 100;
+		    color: black;
+		    padding: 0.5rem;
+		}
+
+		.dropdown a:hover { color: darkcyan; }
+
+		.show {display:block;}
+
+
+		.dropbtn {
+     		text-decoration: none;
+		    font-size: 18px;
+		    color: black;
+		    font-weight: 700;
+		    padding-bottom: 35px;
+		    text-align: center;
+		    padding: 0;
+		    padding-left: 10px;
+		    border: none;
+		    background-color: initial;
+				}
+
+				.dropbtn:hover, .dropbtn:focus {
+		   		 cursor: pointer;
+		   		    outline:none;
+				}
+
+		.dropdown {
+		    position: relative;
+		    display: inline-block;
+		}
+
+		.dropdown-content {
+		 width: 15rem;
+		    position: absolute;
+		    background-color: white;
+		    overflow: auto;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;}
+
+		.dropdown-content a {
+		    text-align: start;
+		    font-size: 0.9rem;
+		    font-weight: 100;
+		    color: black;
+		    padding: 0.5rem;}
+
+		.dropdown a:hover {color: darkcyan;}
+
+		.show {display:block;}
